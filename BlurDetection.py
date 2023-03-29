@@ -25,6 +25,7 @@ while True:
 
     # Display the resulting frame
     cv2.imshow('frame', frame)
+    cv2.imwrite("try.jpg",frame)
 
     # Wait for a key press to exit the loop
     if cv2.waitKey(1) == ord('q'):
