@@ -1,0 +1,5 @@
+train: ../train/images
+val: ../test/images
+
+nc: 2
+names: ['Blinding', 'Blured']
