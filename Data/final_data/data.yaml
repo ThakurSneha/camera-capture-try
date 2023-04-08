@@ -1,5 +1,5 @@
 train: ../train/images
 val: ../test/images
 
-nc: 2
-names: ['Blinding', 'Blured']
+nc: 3
+names: ['Blinding', 'Blured', 'Fine']
